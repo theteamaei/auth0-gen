@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.auth0.trf.AppTest" time="0.088" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Development\git\auth0-gen\target\test-classes;C:\Development\git\auth0-gen\target\classes;C:\Users\tadiqk\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\tadiqk\.m2\repository\com\oracle\ojdbc6\11.2.0.4\ojdbc6-11.2.0.4.jar;C:\Users\tadiqk\.m2\repository\org\hibernate\hibernate-core\3.6.3.Final\hibernate-core-3.6.3.Final.jar;C:\Users\tadiqk\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\tadiqk\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\tadiqk\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\tadiqk\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\tadiqk\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\tadiqk\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\tadiqk\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\tadiqk\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\tadiqk\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\tadiqk\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\tadiqk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\tadiqk\.m2\repository\org\modelmapper\modelmapper\2.3.2\modelmapper-2.3.2.jar;C:\Users\tadiqk\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\tadiqk\AppData\Local\Temp\2\surefire6690475470823121978\surefirebooter5149966487787633884.jar C:\Users\tadiqk\AppData\Local\Temp\2\surefire6690475470823121978 2019-10-10T02-56-38_986-jvmRun1 surefire2273555409552877706tmp surefire_01844038036469310243tmp"/>
+    <property name="surefire.test.class.path" value="C:\Development\git\auth0-gen\target\test-classes;C:\Development\git\auth0-gen\target\classes;C:\Users\tadiqk\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\tadiqk\.m2\repository\com\oracle\ojdbc6\11.2.0.4\ojdbc6-11.2.0.4.jar;C:\Users\tadiqk\.m2\repository\org\hibernate\hibernate-core\3.6.3.Final\hibernate-core-3.6.3.Final.jar;C:\Users\tadiqk\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\tadiqk\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\tadiqk\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\tadiqk\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\tadiqk\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\tadiqk\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\tadiqk\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\tadiqk\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\tadiqk\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\tadiqk\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\tadiqk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\tadiqk\.m2\repository\org\modelmapper\modelmapper\2.3.2\modelmapper-2.3.2.jar;C:\Users\tadiqk\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tadiqk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_212\jre"/>
+    <property name="basedir" value="C:\Development\git\auth0-gen"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\tadiqk\AppData\Local\Temp\2\surefire6690475470823121978\surefirebooter5149966487787633884.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_212\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_212-b10"/>
+    <property name="user.name" value="tadiqk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\tadiqk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tadiqk\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.dir" value="C:\Development\git\auth0-gen"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Development\apache-tomcat\bin\;C:\Development\apache-maven\bin;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Puppet Labs\Puppet\bin;C:\Program Files\7-Zip;C:\Users\tadiqk\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.212-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.auth0.trf.AppTest" time="0.012"/>
+</testsuite>
